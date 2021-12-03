@@ -1,0 +1,18 @@
+INDEX VERSION 1.131+/Users/tomitahajime/Desktop/Java/.metadata/.plugins/org.eclipse.jdt.core
+2952321142.index
+3212361864.index
+3970230483.index
+2915786976.index
+2639308859.index
+1802238278.index
+467964573.index
+867197694.index
+1608048857.index
+167407705.index
+2073209967.index
+1031084713.index
+1870126443.index
+3122877953.index
+1820997878.index
+3326232374.index
+328428806.index
