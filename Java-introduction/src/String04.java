@@ -13,3 +13,6 @@ public class String04 {
 		String s = sb.toString();
 	}
 }
+
+// スレッド（複数の処理を同時に行うためのJavaの仕組み）を利用する場合はStringBuilderを利用すると不具合が起こる可能性がある
+// そのような場合に、StringBufferクラスを代わりに利用する
