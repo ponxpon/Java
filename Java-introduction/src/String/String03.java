@@ -1,6 +1,8 @@
 // 第1章 文字列の操作 基本的な文字列操作 p28
 // 1-3 文字列切り出しメソッドを利用した例
 
+package String;
+
 public class String03 {
 	public static void main(String[] args) {
 		String s1 = "Java programming";

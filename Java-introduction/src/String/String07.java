@@ -1,6 +1,8 @@
 // 第1章 文字列の操作 1.4 正規表現の活用 p42
 // 1-7 split()メソッドを使った文字列の分割
 
+package String;
+
 public class String07 {
 	public static void main(String[] args) {
 		String s = "abc,def:ghi";

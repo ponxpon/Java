@@ -1,6 +1,8 @@
 // 第1章 文字列の操作 基本的な文字列操作 p27
 // 1-2 文字列検索メソッドを利用した例
 
+package String;
+
 public class String02 {
 	public static void main(String[] args) {
 		String s1 = "Java and JavaScript";

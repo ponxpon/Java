@@ -1,6 +1,8 @@
 // 第1章 文字列の操作 文字列の連結 p30
 // 1-4 StringBuilderを利用して文字列を1万回連結する
 
+package String;
+
 public class String04 {
 	public static void main(String[] args) {
 		// StringBuilderインスタンスは内部に連結した文字列を蓄えるメモリ領域を持っている。

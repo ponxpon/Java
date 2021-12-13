@@ -1,6 +1,8 @@
 // 第1章 文字列の操作 正規表現の活用 p36
 // 1-5 正当なプレイヤー名であるかを判定するメソッド
 
+package String;
+
 // プレイヤー名の条件 ・必ず8文字で、使える文字はA〜Zと0〜9だけ ・最初の文字に数字は使えない
 public class String05 {
 	boolean isValidPlayerName(String name) {
