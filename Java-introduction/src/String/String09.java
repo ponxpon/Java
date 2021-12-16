@@ -8,7 +8,7 @@ public class String09 {
 		final String FORMAT = "%8s %6s 所持金%,5d";
 
 		// format()メソッド：整形した文字列を組み立てる
-		String s = String.format(FORMAT, hero.getName(), hero.getJob(), hero.getGold());
-		System.out.println(s);
+		// String s = String.format(FORMAT, hero.getName(), hero.getJob(), hero.getGold());
+		// System.out.println(s);
 	}
 }
