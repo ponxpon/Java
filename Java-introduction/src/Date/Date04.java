@@ -12,7 +12,7 @@ public class Date04 {
 		DateTimeFormatter f = DateTimeFormatter.ofPattern("yyyy/MM/dd");
 		LocalDate d = LocalDate.parse("2011/08/21", f);
 
-		// 100日後を計算する
+		// 1000日後を計算する
 		d = d.plusDays(1000);
 		String str = d.format(f);
 		System.out.println("1000日後は" + str);
