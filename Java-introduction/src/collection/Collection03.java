@@ -6,7 +6,7 @@ package collection;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class Collection3 {
+public class Collection03 {
 	public static void main(String[] args) {
 		ArrayList<String> names = new ArrayList<String>();
 		names.add("湊");
