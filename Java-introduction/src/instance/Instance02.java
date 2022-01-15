@@ -10,11 +10,20 @@ public class Instance02 {
 	// 口座番号（先頭に空白が入ることもある）
 	String accountNo;
 
+	// 引数はObject型にすること
 	public boolean equals(Object o) {
+		// 1.自分自身が引数として渡された場合、無条件でtrueを返す
 		if(o == this) return true;
+
+		// 2.nullが引数として渡された場合、無条件でfalseを返す
 		if(o == null) return false;
+
+		// 3.比較し型が異なるならば、falseを返す（同じなら4のif文に備え、比較できるよう適切にキャストする）
 		if(!(o instanceof Instance02)) return false;
 		Instance02 r =(Instance02) o;
+
+		// 4.2つのインスタンスが持つしかるべきフィールド同士を比較して等価か判定し、trueかfalseを返す。
+		// 先頭と末尾の空白を取り除いた口座番号が等しければ、等価とみなす
 		if(!this.accountNo.trim().equals(r.accountNo.trim())) {
 			return false;
 		}
