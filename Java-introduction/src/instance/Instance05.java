@@ -3,9 +3,12 @@
 
 package instance;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Instance05 {
 	public static void main(String[] args) {
-		// List<Account> list = new ArrayList<Account>();
+		List<Account> list = new ArrayList<Account>();
 
 		// これだけで要素が並び替えらえれる
 		// Collections.sort(list);
