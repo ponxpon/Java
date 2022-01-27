@@ -6,31 +6,31 @@ package instance;
 import java.util.HashSet;
 import java.util.Set;
 
-class Hero1 {
-	public String name;
-	public boolean equals(Object o) {
-		if(o == this) return true;
-		if(o == null) return false;
-		if(!(o instanceof Hero1)) return false;
-		Hero1 r = (Hero1) o;
-		if(!this.name.equals(r.name)) {
-			return false;
-		}
-		return true;
-	}
-}
+//class Hero1 {
+//	public String name;
+//	public boolean equals(Object o) {
+//		if(o == this) return true;
+//		if(o == null) return false;
+//		if(!(o instanceof Hero1)) return false;
+//		Hero1 r = (Hero1) o;
+//		if(!this.name.equals(r.name)) {
+//			return false;
+//		}
+//		return true;
+//	}
+//}
 
 public class Instance04 {
 	public static void main(String[] args) {
 		// HashSetを利用
-		Set<Hero1> list = new HashSet<Hero1>();
-		Hero1 h1 = new Hero1();
+		Set<Hero> list = new HashSet<Hero>();
+		Hero h1 = new Hero();
 		h1.name = "ミナト";
 
 		// インスタンスを作って格納
 		list.add(h1);
 		System.out.println("要素数=" + list.size());
-		h1 =new Hero1();
+		h1 =new Hero();
 		h1.name = "ミナト";
 
 		// 名前が「ミナト」の勇者を削除

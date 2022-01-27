@@ -6,10 +6,10 @@ package instance;
 import java.util.ArrayList;
 import java.util.List;
 
-class Hero {
-	// equals()をオーバーライドしていない
-	public String name;
-}
+// class Hero {
+// 	equals()をオーバーライドしていない
+// 	public String name;
+// }
 
 public class Instance03 {
 	public static void main(String[] args) {
